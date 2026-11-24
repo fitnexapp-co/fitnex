@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FITNEX</string>
+    <string name="app_slogan">BUILD YOUR BEST SELF</string>
+    <string name="tab_progress">Progreso</string>
+    <string name="tab_nutrition">Nutrición</string>
+    <string name="tab_workout">Entrenamiento</string>
+    <string name="open_fitnex_ai">Abrir FITNEX AI</string>
+    <string name="restoring_data">Recuperando tus datos de la nube…</string>
+    <string name="reminder_channel">Recordatorios de entrenamiento</string>
+    <string name="reminder_title">Hoy toca entrenar</string>
+    <string name="reminder_body">%1$s · Toca para empezar</string>
+    <string name="widget_name">FITNEX</string>
+    <string name="widget_description">Tu objetivo semanal, tu racha y el entrenamiento de hoy.</string>
+    <string name="widget_week">esta semana</string>
+    <plurals name="widget_streak">
+        <item quantity="one">Racha: %d semana</item>
+        <item quantity="other">Racha: %d semanas</item>
+    </plurals>
+    <string name="widget_today">Hoy: %1$s</string>
+    <string name="widget_next">Próximo: %1$s · %2$s</string>
+    <string name="widget_done_today">Hoy ya entrenaste. ¡Bien hecho!</string>
+    <string name="widget_rest">Hoy es día de descanso.</string>
+    <string name="widget_no_plan">Asigna días a tus rutinas para ver aquí el próximo entrenamiento.</string>
+    <string name="widget_signed_out">Inicia sesión en FITNEX.</string>
+    <string name="widget_streak_name">FITNEX · Racha</string>
+    <string name="widget_streak_description">Tu racha diaria con la llama y los días entrenados de la semana.</string>
+    <string name="widget_stats_name">FITNEX · Racha y estadísticas</string>
+    <string name="widget_stats_description">Tu racha diaria y los entrenamientos, minutos y series de esta semana.</string>
+    <plurals name="widget_streak_days">
+        <item quantity="one">día de racha</item>
+        <item quantity="many">días de racha</item>
+        <item quantity="other">días de racha</item>
+    </plurals>
+    <string name="widget_streak_fed">Hoy ya sumaste. ¡Sigue así!</string>
+    <string name="widget_streak_grow">Entrena hoy para que crezca.</string>
+    <string name="widget_streak_last">¡Último día para no perderla!</string>
+    <string name="widget_streak_none">Entrena hoy para encender tu racha.</string>
+    <string name="widget_streak_best">Mejor: %d</string>
+    <string name="widget_stat_workouts">entrenos</string>
+    <string name="widget_stat_minutes">minutos</string>
+    <string name="widget_stat_sets">series</string>
+    <string name="mini_workout_running">Entrenando · %1$s · series: %2$d</string>
+    <string name="mini_workout_paused">En pausa · %1$s · series: %2$d</string>
+    <string name="mini_workout_open">Volver al entrenamiento</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Streak flame for the home-screen widgets (same shape as StreakFlame in the design system). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#FFF26A1B"
+        android:pathData="M52,3 C58,22 80,32 81,58 C82,82 67,98 50,98 C32,98 18,84 19,65 C20,52 27,44 34,37 C34,47 38,53 44,55 C40,38 45,19 52,3 Z" />
+    <path
+        android:fillColor="#FFFFB45C"
+        android:pathData="M53,50 C57,63 67,69 66,81 C65,91 58,95 50,95 C42,95 34,90 34,80 C34,71 41,65 44,59 C45,65 47,68 50,69 C49,62 50,56 53,50 Z" />
+</vector>

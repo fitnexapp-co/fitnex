@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BCP-47 tag of the language these strings are written in; drives date formatting. -->
+    <string name="ds_locale_tag">en</string>
+    <string name="ds_back">Back</string>
+    <string name="ds_picker_done">Done</string>
+    <string name="ds_picker_clear">Clear</string>
+    <string name="ds_password_show">SHOW</string>
+    <string name="ds_password_hide">HIDE</string>
+    <string name="ds_open_calendar">Open calendar</string>
+    <string name="ds_open_profile">Profile and settings</string>
+    <string name="ds_previous_month">Previous month</string>
+    <string name="ds_next_month">Next month</string>
+    <string name="ds_marker_completed">Workout completed</string>
+    <string name="ds_marker_scheduled">Scheduled session</string>
+    <string name="ds_marker_rest">Scheduled rest</string>
+    <string name="ds_marker_missed">Missed session</string>
+    <string name="ds_marker_none_hint">A day without a mark means no activity was logged, not that it was a rest day.</string>
+    <string name="ds_logo">FITNEX</string>
+    <!-- Streak (daily, one rest day allowed) -->
+    <string name="ds_streak_title">Training streak</string>
+    <string name="ds_streak_open">See your streak</string>
+    <plurals name="ds_streak_days">
+        <item quantity="one">day streak</item>
+        <item quantity="other">day streak</item>
+    </plurals>
+    <plurals name="ds_streak_cd">
+        <item quantity="one">%d-day streak</item>
+        <item quantity="other">%d-day streak</item>
+    </plurals>
+    <plurals name="ds_streak_best">
+        <item quantity="one">Your best streak: %d day</item>
+        <item quantity="other">Your best streak: %d days</item>
+    </plurals>
+    <string name="ds_streak_fed">Streak fed today!\nTomorrow you can train or rest.</string>
+    <string name="ds_streak_can_grow">This streak wants to grow.\nFeed it today or take your rest day.</string>
+    <string name="ds_streak_last_day">You rested yesterday.\nTrain today to keep your streak.</string>
+    <string name="ds_streak_none">Start a streak with your next workout.</string>
+    <string name="ds_streak_how">How does the streak work?</string>
+    <string name="ds_streak_how_body">Every day you finish a workout adds a day to your streak. Rest is part of training: one rest day between workouts doesn\'t break it. If two days in a row go by without training, the streak starts over.</string>
+    <string name="ds_streak_continue">Continue</string>
+</resources>

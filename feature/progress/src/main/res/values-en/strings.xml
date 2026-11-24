@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="progress_title">Progress</string>
+    <string name="progress_overline">Your journey</string>
+    <string name="progress_empty_title">Your progress starts today</string>
+    <string name="progress_empty_message">Do your first workout and your stats will show up here.</string>
+    <string name="muscles_empty">No sets logged in this period.</string>
+    <string name="exercises_empty">The exercises you complete will appear here.</string>
+    <string name="history_empty">Your finished sessions will appear here.</string>
+    <string name="progress_go_train">Start</string>
+    <string name="analyze_progress">Analyze my progress</string>
+
+    <string name="period_week">Week</string>
+    <string name="period_month">Month</string>
+    <string name="period_3m">3 months</string>
+    <string name="period_year">Year</string>
+    <string name="period_all">All</string>
+
+    <string name="tile_workouts">Workouts</string>
+    <string name="tile_sets">Sets</string>
+    <string name="tile_reps">Reps</string>
+    <string name="tile_time">Time</string>
+    <string name="tile_volume">Volume</string>
+    <string name="tile_active_days">Active days</string>
+    <string name="tile_active_days_caption">of %1$d in the period</string>
+    <string name="progress_no_sessions_period">No workouts in this period. Try a longer period.</string>
+
+    <string name="section_frequency">Frequency</string>
+    <string name="frequency_a11y">Workouts per %1$s: %2$s</string>
+    <string name="unit_day">day</string>
+    <string name="unit_week">week</string>
+    <string name="unit_month">month</string>
+    <string name="section_muscles">Muscle groups</string>
+    <string name="muscles_note">Weighted sets: primary muscle = 1, secondary = 0.5, stabilizer = 0.25.</string>
+    <string name="muscles_a11y">Weighted sets per group: %1$s</string>
+    <string name="section_exercises">Exercises</string>
+    <string name="exercise_row">Sessions: %1$d · last %2$s</string>
+    <string name="exercise_best_weight">Best: %1$s kg</string>
+    <string name="exercise_best_reps">Best: %1$d reps</string>
+    <string name="section_history">History</string>
+    <string name="history_row">%1$s · sets: %2$d · exercises: %3$d</string>
+
+    <string name="region_chest">Chest</string>
+    <string name="region_back">Back</string>
+    <string name="region_shoulders">Shoulders</string>
+    <string name="region_arms">Arms</string>
+    <string name="region_core">Core</string>
+    <string name="region_legs">Legs</string>
+    <string name="region_glutes">Glutes</string>
+    <string name="region_neck">Neck</string>
+
+    <!-- Muscle map + muscle page -->
+    <string name="map_muscle_info">%1$s weighted sets · %2$s in the period</string>
+    <plurals name="sessions_count">
+        <item quantity="one">%d session</item>
+        <item quantity="other">%d sessions</item>
+    </plurals>
+    <plurals name="sets_count">
+        <item quantity="one">%d set</item>
+        <item quantity="other">%d sets</item>
+    </plurals>
+    <string name="map_muscle_not_worked">Not worked in this period.</string>
+    <string name="muscle_function">Function</string>
+    <string name="muscle_sessions">Sessions</string>
+    <string name="muscle_weighted_sets">Weighted sets</string>
+    <string name="muscle_last">Last time</string>
+    <string name="muscle_never">—</string>
+    <string name="muscle_frequency">Frequency</string>
+    <string name="muscle_frequency_value">%1$s/wk</string>
+    <string name="muscle_frequency_caption">sessions · last 4 weeks</string>
+    <string name="muscle_evolution">Evolution · last 12 weeks</string>
+    <string name="muscle_metric_sets">Sets</string>
+    <string name="muscle_metric_volume">Volume</string>
+    <string name="muscle_evolution_a11y">%1$s per week: %2$s</string>
+    <string name="muscle_evolution_empty">No sets for this muscle in the last 12 weeks yet.</string>
+    <string name="muscle_volume_note">Weighted volume: reps × kg × muscle involvement (primary 1, secondary 0.5, stabilizer 0.25).</string>
+    <string name="muscle_primary_exercises">Main exercises</string>
+    <string name="muscle_secondary_exercises">Also worked by</string>
+    <string name="muscle_no_exercises">No catalog exercise works it in this role.</string>
+    <string name="muscle_history">History</string>
+    <string name="muscle_history_empty">You haven\'t trained this muscle yet. It will appear here after a workout that works it.</string>
+    <string name="muscle_history_row">%1$s · %2$s</string>
+    <string name="muscle_same_region">Other %1$s muscles</string>
+    <string name="muscle_map_a11y">Location of %1$s on the body</string>
+    <string name="muscle_not_found">This muscle doesn\'t exist in the catalog.</string>
+
+    <!-- Exercise stats -->
+    <string name="exstats_overline">Statistics</string>
+    <string name="exstats_sessions">Sessions</string>
+    <string name="exstats_best_weight">Best weight</string>
+    <string name="exstats_best_reps">Best set</string>
+    <string name="exstats_best_1rm">Estimated 1RM</string>
+    <string name="metric_weight">Max weight</string>
+    <string name="metric_1rm">Est. 1RM</string>
+    <string name="metric_volume">Volume</string>
+    <string name="metric_reps">Reps</string>
+    <string name="exstats_chart_a11y">%1$s per session, from %2$s to %3$s</string>
+    <string name="exstats_1rm_note">Estimated 1RM uses the Epley formula on your sets of 1 to 12 reps. It\'s an estimate, not a measurement.</string>
+    <string name="exstats_one_point">With a single session there\'s no evolution to show yet. Come back after your next workout.</string>
+    <string name="exstats_empty">You haven\'t logged this exercise yet.</string>
+    <string name="exstats_history">Set history</string>
+    <string name="goal_title">Weekly goal</string>
+    <string name="goal_a11y">%1$d of %2$d workouts this week</string>
+    <string name="goal_done">Weekly goal achieved!</string>
+    <plurals name="goal_left">
+        <item quantity="one">%d workout left this week</item>
+        <item quantity="other">%d workouts left this week</item>
+    </plurals>
+    <plurals name="goal_streak">
+        <item quantity="one">Streak: %d week</item>
+        <item quantity="other">Streak: %d weeks</item>
+    </plurals>
+    <string name="goal_no_streak">Meet your goal to start a streak</string>
+    <string name="goal_change">Change</string>
+    <string name="goal_sheet_title">Workouts per week</string>
+    <string name="goal_sheet_body">How many days do you want to train each week?</string>
+    <string name="badges_title">Achievements %1$d/%2$d</string>
+    <string name="achievements_title">Your achievements</string>
+    <string name="achievements_all">See all</string>
+    <string name="goal_day_done">%1$s: trained</string>
+    <string name="goal_day_pending">%1$s: not trained</string>
+    <string name="badge_locked_a11y">%1$s, locked: %2$d of %3$d</string>
+    <string name="badge_first">First workout</string>
+    <string name="badge_10">10 workouts</string>
+    <string name="badge_50">50 workouts</string>
+    <string name="badge_100">100 workouts</string>
+    <string name="badge_streak4">4-week streak</string>
+    <string name="badge_streak12">12-week streak</string>
+    <string name="badge_sets">500 sets</string>
+    <string name="badge_hours">10 hours</string>
+    <string name="badge_variety">15 exercises</string>
+    <!-- "Your experience" cards -->
+    <string name="exp_label">Your FITNEX experience</string>
+    <string name="exp_minutes">Minutes trained</string>
+    <plurals name="exp_workouts_year">
+        <item quantity="one">%1$d workout · %2$d</item>
+        <item quantity="other">%1$d workouts · %2$d</item>
+    </plurals>
+    <string name="exp_member">Member since</string>
+    <string name="exp_streak_label">Your consistency</string>
+    <string name="exp_streak">Weeks in a row</string>
+    <string name="exp_sets_total">Sets in total: %1$d</string>
+    <string name="exp_last">Last</string>
+    <string name="exp_week_label">This week</string>
+    <string name="exp_week">Workouts</string>
+    <!-- Dashboard: frequency, rhythm and groups -->
+    <string name="freq_days">Days</string>
+    <string name="freq_weeks">Weeks</string>
+    <string name="freq_months">Months</string>
+    <string name="rhythm_title">Your rhythm</string>
+    <string name="ring_week">Weekly goal</string>
+    <string name="ring_active">Active days</string>
+    <string name="ring_sets">Sets vs. previous period</string>
+    <string name="ring_of">%1$d of %2$d</string>
+    <string name="groups_title">Muscle groups</string>
+    <string name="groups_main">Most worked group</string>
+    <string name="groups_center">sets</string>
+    <string name="groups_other">Other</string>
+    <string name="sets_per_session">Sets per workout</string>
+    <string name="sets_per_session_a11y">Sets in your latest workouts: %1$s</string>
+    <!-- Progress, simplified (v1.6.0) -->
+    <string name="progress_subtitle">Your real progress, from the workouts you log.</string>
+    <plurals name="tile_active_days_short">
+        <item quantity="one">%1$d active day</item>
+        <item quantity="other">%1$d active days</item>
+    </plurals>
+    <plurals name="tile_reps_caption">
+        <item quantity="one">%d rep</item>
+        <item quantity="other">%d reps</item>
+    </plurals>
+    <string name="tile_timed">Cardio and time</string>
+    <string name="tile_timed_caption">Cardio, planks and stretches</string>
+    <string name="tile_distance">Distance</string>
+    <!-- Body measurements (adults, v1.6.0) -->
+    <string name="body_title">Body measurements</string>
+    <string name="body_empty">Optional: note a measurement (waist, arm…) if you want to see how it changes with training. We don\'t ask for your weight.</string>
+    <string name="body_waist">Waist</string>
+    <string name="body_chest">Chest</string>
+    <string name="body_hips">Hips</string>
+    <string name="body_arm">Arm</string>
+    <string name="body_thigh">Thigh</string>
+    <string name="body_since">Change since your first entry (%1$s)</string>
+    <string name="body_first_only">First entry: %1$s. Your next one will show the change.</string>
+    <string name="body_add">Add measurements</string>
+    <string name="body_save">Save</string>
+    <string name="body_sheet_hint">Fill in only the ones you want. Always measure in the same spot and at the same time of day to compare better.</string>
+    <string name="body_invalid">Check the values: between 15 and 250 cm.</string>
+    <string name="body_delete_cd">Delete the measurements from %1$s</string>
+    <string name="body_delete_title">Delete these measurements?</string>
+    <string name="body_delete_body">They are deleted from this device and the cloud.</string>
+    <string name="body_delete_confirm">Delete</string>
+    <string name="body_delete_cancel">Cancel</string>
+</resources>

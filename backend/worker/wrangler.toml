@@ -1,0 +1,19 @@
+name = "fitnex-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+# Buffer (base64 of meal photos) comes from the Node compatibility layer.
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FIREBASE_PROJECT_ID = "fitnex-fd961"
+# Google-maintained alias for the current Flash model (fixed names like gemini-2.5-flash get retired).
+GEMINI_MODEL = "gemini-flash-latest"
+# GEMINI_API_KEY is a secret: `npx wrangler secret put GEMINI_API_KEY` (never in this file).
+
+# Phase 9: cloud copy of user data + global AI quota. Schema: migrations/ (npx wrangler d1 migrations apply fitnex-sync --remote).
+[[d1_databases]]
+binding = "DB"
+database_name = "fitnex-sync"
+database_id = "4a846e32-7a3b-4bda-a980-f4c7231f7d54"
+migrations_dir = "migrations"
+

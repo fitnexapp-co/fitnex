@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nutrition_title">Nutrición</string>
+    <string name="nutrition_overline">Come con intención</string>
+
+    <!-- Diary -->
+    <string name="today">Hoy</string>
+    <string name="previous_day">Día anterior</string>
+    <string name="next_day">Día siguiente</string>
+    <string name="summary_title">Resumen del día</string>
+    <string name="summary_empty">Todavía no hay nada registrado este día. Añade lo que comas o bebas en cada comida.</string>
+    <string name="protein">Proteínas</string>
+    <string name="carbs">Carbohidratos</string>
+    <string name="fat">Grasas</string>
+    <string name="fiber">Fibra</string>
+    <string name="kcal_estimate">≈ %1$s kcal · estimación</string>
+    <plurals name="variety">
+        <item quantity="one">%d alimento distinto</item>
+        <item quantity="other">%d alimentos distintos</item>
+    </plurals>
+    <string name="minor_focus">Lo importante es la variedad, los nutrientes y beber agua: aquí no hay objetivos de calorías.</string>
+    <string name="estimates_note">Los valores nutricionales son estimaciones (USDA FoodData Central) para la cantidad indicada.</string>
+
+    <string name="water_title">Hidratación</string>
+    <string name="water_total">%1$s ml</string>
+    <string name="water_add">+%1$d ml</string>
+    <string name="water_undo">Deshacer</string>
+    <plurals name="water_glasses">
+        <item quantity="one">%1$d vaso de 250 ml</item>
+        <item quantity="other">%1$d vasos de 250 ml</item>
+    </plurals>
+
+    <string name="meal_breakfast">Desayuno</string>
+    <string name="meal_lunch">Almuerzo</string>
+    <string name="meal_dinner">Cena</string>
+    <string name="meal_snack">Meriendas</string>
+    <string name="meal_drink">Bebidas</string>
+    <string name="meal_add">Añadir</string>
+    <string name="meal_add_cd">Añadir a %1$s</string>
+    <string name="meal_empty">Nada registrado.</string>
+    <string name="entry_macros">P %1$s g · C %2$s g · G %3$s g</string>
+    <string name="entry_allergen">Contiene: %1$s</string>
+    <string name="entry_custom">Valores introducidos por ti</string>
+    <string name="entry_delete">Eliminar</string>
+    <string name="entry_delete_title">¿Eliminar «%1$s»?</string>
+    <string name="entry_delete_message">Se quitará de este día.</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Photo -->
+    <string name="photo_title">Foto de una comida</string>
+    <string name="photo_camera">Cámara</string>
+    <string name="photo_gallery">Galería</string>
+    <string name="photo_pick_meal">¿A qué comida corresponde?</string>
+    <string name="photo_saved_note">La foto se guarda solo en este móvil. Si quieres, FITNEX AI puede estimar los alimentos y sus nutrientes; tú revisas el resultado antes de guardarlo.</string>
+    <string name="photo_analyze">Analizar con FITNEX AI</string>
+    <string name="analysis_title">Análisis de la foto</string>
+    <string name="analysis_loading">FITNEX AI está mirando tu plato…</string>
+    <string name="analysis_estimates">Son estimaciones a partir de la foto, no valores exactos. Revisa y ajusta las cantidades.</string>
+    <string name="analysis_confidence">Confianza %1$d %%</string>
+    <string name="analysis_save">Guardar en el diario</string>
+    <string name="analysis_manual_hint">También puedes añadir los alimentos tú desde «Añadir».</string>
+    <string name="analysis_retry">Reintentar</string>
+    <string name="analysis_consent">Para analizar la foto, se envía de forma segura al servidor de FITNEX, que usa Gemini de Google. No se guarda en el servidor.</string>
+    <string name="analysis_consent_accept">Acepto y analizar</string>
+    <string name="analysis_error_consent">FITNEX AI necesita tu permiso para analizar fotos.</string>
+    <string name="analysis_error_connection">No hay conexión a internet. Inténtalo cuando tengas conexión.</string>
+    <string name="analysis_error_rate">Demasiadas solicitudes seguidas. Espera un minuto.</string>
+    <string name="analysis_error_not_configured">El servidor de FITNEX AI todavía no está desplegado para esta versión de la app.</string>
+    <string name="analysis_error_unavailable">No se pudo analizar la foto ahora. Inténtalo de nuevo en un momento.</string>
+    <string name="photo_cd">Foto de %1$s</string>
+    <string name="photo_failed">No se pudo guardar la foto.</string>
+
+    <!-- Add food -->
+    <string name="add_title">Añadir a %1$s</string>
+    <string name="add_overline">Buscar alimento</string>
+    <string name="search_hint">Buscar alimento</string>
+    <string name="all_categories">Todo</string>
+    <string name="recent">Recientes</string>
+    <plurals name="results">
+        <item quantity="one">%d alimento</item>
+        <item quantity="other">%d alimentos</item>
+    </plurals>
+    <string name="no_results">No encontramos «%1$s». Puedes añadirlo como alimento personalizado.</string>
+    <string name="custom_food">Alimento personalizado</string>
+    <string name="per_100g">por 100 g</string>
+    <string name="food_row">%1$s · P %2$s g · C %3$s g · G %4$s g</string>
+    <string name="allergen_flag">⚠ %1$s</string>
+    <string name="source_note">Datos: USDA FoodData Central (SR Legacy), dominio público.</string>
+
+    <!-- Portion -->
+    <string name="portion_title">¿Cuánto?</string>
+    <string name="portion_units">Raciones</string>
+    <string name="portion_grams">Gramos</string>
+    <string name="portion_amount">Cantidad</string>
+    <string name="portion_units_label">%1$s × %2$s</string>
+    <string name="portion_grams_label">%1$s g</string>
+    <string name="portion_total">Total: %1$s g</string>
+    <string name="portion_add">Añadir</string>
+    <string name="portion_save">Guardar</string>
+    <string name="portion_allergen_warning">Atención: contiene %1$s, que marcaste como alergia o intolerancia.</string>
+
+    <!-- Custom food -->
+    <string name="custom_title">Alimento personalizado</string>
+    <string name="custom_overline">%1$s</string>
+    <string name="custom_name">Nombre</string>
+    <string name="custom_grams">Cantidad</string>
+    <string name="custom_kcal">Energía</string>
+    <string name="custom_note">Introduce lo que sepas (por ejemplo, de la etiqueta). Lo que no rellenes cuenta como 0 y se guardará como estimación tuya.</string>
+    <string name="custom_save">Guardar</string>
+
+    <!-- Recipes -->
+    <string name="tab_foods">Alimentos</string>
+    <string name="tab_recipes">Recetas</string>
+    <string name="recipe_new">Nueva receta</string>
+    <string name="recipes_empty">Aún no tienes recetas. Crea una con sus ingredientes y raciones, y añádela a tus comidas en un toque.</string>
+    <string name="recipe_edit">Editar</string>
+    <string name="per_serving">Por ración</string>
+    <string name="servings_label">%1$s raciones</string>
+    <string name="recipe_new_title">Nueva receta</string>
+    <string name="recipe_edit_title">Editar receta</string>
+    <string name="recipe_overline">Recetas</string>
+    <string name="recipe_name">Nombre de la receta</string>
+    <string name="recipe_servings">Raciones que salen</string>
+    <string name="recipe_ingredients">Ingredientes</string>
+    <string name="recipe_no_items">Añade los ingredientes con sus cantidades para el plato completo.</string>
+    <string name="recipe_add_item">Añadir ingrediente</string>
+    <string name="recipe_save">Guardar receta</string>
+    <string name="recipe_delete">Eliminar receta</string>
+    <string name="recipe_delete_title">¿Eliminar «%1$s»?</string>
+    <string name="recipe_delete_message">La receta desaparecerá de tu lista. Lo que ya registraste en tu diario se mantiene.</string>
+
+    <!-- Week -->
+    <string name="week_open">Resumen de la semana</string>
+    <string name="week_title">Tu semana</string>
+    <string name="week_overline">Nutrición · últimos 7 días</string>
+    <string name="week_empty">Todavía no hay registros esta semana. El resumen se llena con lo que anotes en el diario.</string>
+    <string name="week_days_logged">Días con registros</string>
+    <string name="week_variety">Alimentos distintos</string>
+    <string name="week_breakfasts">Días con desayuno</string>
+    <string name="week_groups">Grupos de alimentos</string>
+    <string name="week_groups_caption">de 18 categorías</string>
+    <string name="week_water">Agua</string>
+    <string name="week_averages">Media por día registrado</string>
+    <string name="week_averages_note">Solo cuentan los días en los que anotaste algo. Son estimaciones y no hay objetivos.</string>
+    <string name="week_kcal">Energía</string>
+    <string name="week_top_foods">Lo que más comiste</string>
+    <string name="week_no_foods">—</string>
+    <string name="week_groups_title">Grupos que comiste</string>
+    <string name="week_variety_note">Variar entre frutas, verduras, legumbres, cereales y proteínas ayuda a cubrir más nutrientes.</string>
+    <plurals name="times">
+        <item quantity="one">%d vez</item>
+        <item quantity="other">%d veces</item>
+    </plurals>
+    <string name="nutrient_calcium">Calcio</string>
+    <string name="nutrient_iron">Hierro</string>
+    <string name="nutrient_vitamin_c">Vitamina C</string>
+    <string name="nutrient_potassium">Potasio</string>
+
+    <!-- Categories -->
+    <string name="cat_fruit">Frutas</string>
+    <string name="cat_vegetable">Verduras</string>
+    <string name="cat_legume">Legumbres</string>
+    <string name="cat_nut">Frutos secos y semillas</string>
+    <string name="cat_cereal">Cereales</string>
+    <string name="cat_bread">Panes</string>
+    <string name="cat_dairy">Lácteos</string>
+    <string name="cat_egg">Huevos</string>
+    <string name="cat_poultry">Aves</string>
+    <string name="cat_meat">Carnes</string>
+    <string name="cat_fish">Pescados</string>
+    <string name="cat_shellfish">Mariscos</string>
+    <string name="cat_fat">Aceites y grasas</string>
+    <string name="cat_sweet">Dulces</string>
+    <string name="cat_drink">Bebidas</string>
+    <string name="cat_snack">Aperitivos</string>
+    <string name="cat_dish">Platos</string>
+    <string name="cat_sauce">Salsas</string>
+
+    <!-- Allergens (profile keys) -->
+    <string name="allergen_nuts">frutos secos</string>
+    <string name="allergen_peanut">cacahuete</string>
+    <string name="allergen_milk">lácteos</string>
+    <string name="allergen_egg">huevo</string>
+    <string name="allergen_gluten">gluten</string>
+    <string name="allergen_soy">soja</string>
+    <string name="allergen_fish">pescado</string>
+    <string name="allergen_shellfish">marisco</string>
+    <string name="allergen_sesame">sésamo</string>
+    <string name="barcode_scan">Escanear código de barras</string>
+    <string name="barcode_close">Cerrar escáner</string>
+    <string name="barcode_hint">Apunta al código de barras del envase.</string>
+    <string name="barcode_looking">Buscando %1$s…</string>
+    <string name="barcode_missing">No encontramos el producto %1$s. Puedes añadirlo como alimento personalizado.</string>
+    <string name="barcode_offline">Sin conexión: el escáner necesita internet para buscar el producto.</string>
+    <string name="barcode_again">Escanear otro</string>
+    <string name="barcode_custom">Crear alimento</string>
+    <string name="barcode_permission">Para escanear necesitamos la cámara. Las imágenes no se guardan.</string>
+    <string name="barcode_allow">Permitir cámara</string>
+    <string name="barcode_source">Datos de la etiqueta: Open Food Facts (base de datos libre).</string>
+<string name="photo_take">Hacer foto</string>
+    <string name="photo_choose">Elegir de la galería</string>
+    <string name="photo_add_cd">Añadir foto a %1$s</string>
+    <string name="photo_no_camera">No hay ninguna app de cámara en este móvil. Elige la foto de la galería.</string>
+    <string name="photo_camera_denied">Sin permiso de cámara no se puede hacer la foto. Puedes elegirla de la galería o dar el permiso en Ajustes del móvil.</string>
+    <!-- Nutrition home (v1.6.0) -->
+    <string name="nutrition_subtitle">Cuida tu alimentación, potencia tus resultados</string>
+    <string name="kcal_day">Calorías del día</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="kcal_goal">Objetivo: %1$s kcal</string>
+    <string name="kcal_remaining">Restantes: %1$s kcal</string>
+    <string name="kcal_over">%1$s kcal más que tu objetivo orientativo</string>
+    <string name="kcal_no_goal">Aún no tienes objetivo diario.</string>
+    <string name="kcal_set_goal">Calcular mi objetivo</string>
+    <string name="kcal_ring_cd">Calorías de hoy: %1$s kcal (estimación)</string>
+    <string name="macro_cd_target">%1$s: %2$s g de %3$d g</string>
+    <string name="carbs_long">Carbohidratos</string>
+    <string name="variety_title">Variedad de hoy</string>
+    <string name="variety_short">alimentos\ndistintos</string>
+    <string name="tip_title">Consejo del día</string>
+    <string name="tools_title">Herramientas</string>
+    <string name="tool_calculator">Calculadora de calorías</string>
+    <string name="tool_recipe">Nueva receta</string>
+    <string name="tool_log">Registrar comida</string>
+    <string name="tool_stats">Resumen semanal</string>
+    <string name="meals_title">Comidas del día</string>
+    <string name="calc_title">Calculadora de calorías</string>
+    <string name="calc_body">Estimación orientativa con la fórmula Mifflin-St Jeor y tu actividad. No sustituye a un profesional de la nutrición.</string>
+    <string name="calc_sex">Sexo (la fórmula lo necesita; no se guarda)</string>
+    <string name="calc_sex_hint">Elige una opción para calcular.</string>
+    <string name="calc_male">Hombre</string>
+    <string name="calc_female">Mujer</string>
+    <string name="calc_age">Edad</string>
+    <string name="calc_weight">Peso (kg)</string>
+    <string name="calc_height">Altura (cm)</string>
+    <string name="calc_activity">Actividad diaria</string>
+    <string name="calc_aim">Objetivo</string>
+    <string name="calc_aim_lose">Perder grasa (−15 \u0025)</string>
+    <string name="calc_aim_maintain">Mantener</string>
+    <string name="calc_aim_gain">Ganar músculo (+10 \u0025)</string>
+    <string name="calc_act_sedentary">Sedentaria</string>
+    <string name="calc_act_light">Ligera</string>
+    <string name="calc_act_moderate">Moderada</string>
+    <string name="calc_act_active">Activa</string>
+    <string name="calc_act_very_active">Muy activa</string>
+    <string name="calc_result">%1$s kcal al día</string>
+    <string name="calc_macros">Proteínas %1$d g · Carbohidratos %2$d g · Grasas %3$d g</string>
+    <string name="calc_missing">Completa sexo, edad (18+), peso y altura para ver tu estimación.</string>
+    <string name="calc_save">Usar como objetivo</string>
+    <string name="calc_manual">O escribe tu objetivo (kcal)</string>
+    <string name="calc_manual_range">Entre 1200 y 5000 kcal.</string>
+    <string name="calc_manual_save">Guardar este</string>
+    <string name="calc_clear">Quitar objetivo</string>
+    <string-array name="nutrition_tips">
+        <item>Mantén una buena hidratación. El agua mejora tu rendimiento y tu recuperación.</item>
+        <item>Incluye una fuente de proteína en cada comida: ayuda a recuperar el músculo después de entrenar.</item>
+        <item>Llena medio plato con verduras: aportan fibra, vitaminas y saciedad.</item>
+        <item>Las legumbres son baratas y completas: proteína, fibra e hidratos de absorción lenta.</item>
+        <item>Una pieza de fruta es un tentempié fácil antes de entrenar.</item>
+        <item>Dormir bien también es nutrición: el descanso regula el apetito y la recuperación.</item>
+        <item>Elige cereales integrales cuando puedas: más fibra y energía más estable.</item>
+        <item>Los frutos secos son saludables; un puñado al día es una buena ración.</item>
+        <item>Planificar las comidas de la semana evita improvisar con ultraprocesados.</item>
+        <item>Después de entrenar, combina proteína e hidratos para recuperar mejor.</item>
+        <item>Variar los colores del plato es una forma sencilla de variar los nutrientes.</item>
+        <item>Lleva una botella de agua contigo: beber se vuelve automático.</item>
+    </string-array>
+    <!-- Meal plan (v1.6.0) -->
+    <string name="tool_plan">Plan de comidas</string>
+    <string name="plan_title">Plan de comidas</string>
+    <string name="plan_overline">Tu semana</string>
+    <string name="plan_body">Planifica qué comer cada día. El plan se repite cada semana y, cuando quieras, lo pasas al diario de hoy con un toque.</string>
+    <string name="plan_day_totals">Total planificado del %1$s</string>
+    <string name="plan_meal_empty">Nada planificado.</string>
+    <string name="plan_item_missing">Ya no está en el catálogo ni en tus recetas: no se añadirá.</string>
+    <string name="plan_remove_cd">Quitar %1$s del plan</string>
+    <string name="plan_copy_today">Añadir el plan del %1$s al diario de hoy</string>
+    <string name="plan_copy_title">¿Añadir al diario de hoy?</string>
+    <plurals name="plan_copy_body">
+        <item quantity="one">Se añadirá %1$d alimento al diario de hoy. Después puedes editarlo o borrarlo.</item>
+        <item quantity="other">Se añadirán %1$d alimentos al diario de hoy. Después puedes editarlos o borrarlos.</item>
+    </plurals>
+    <string name="plan_copy_confirm">Añadir</string>
+    <plurals name="plan_copied">
+        <item quantity="one">Añadido %d alimento al diario de hoy.</item>
+        <item quantity="other">Añadidos %d alimentos al diario de hoy.</item>
+    </plurals>
+    <string name="plan_copied_none">No se añadió nada: los alimentos de este día ya no existen.</string>
+    <string name="plan_ok">Vale</string>
+    <string name="plan_add_meal">%1$s · plan del %2$s</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_title">Muscle map</string>
+    <string name="map_2d">2D</string>
+    <string name="map_3d">3D</string>
+    <string name="view_front">Front</string>
+    <string name="view_back">Back</string>
+    <string name="legend_idle">Not worked</string>
+    <string name="legend_active">Worked</string>
+    <string name="hint_tap">Tap a muscle to see its details.</string>
+    <string name="hint_3d">Swipe sideways to rotate · pinch to zoom · two fingers to move</string>
+    <string name="recenter">Recenter</string>
+    <string name="open_detail">See details</string>
+    <string name="fallback_2d">This device shows the map in 2D to keep the app smooth.</string>
+    <string name="map_a11y">Muscle map, %1$s view. Muscles worked: %2$s.</string>
+    <string name="map_a11y_none">none</string>
+    <string name="map3d_a11y">3D body model. Muscles worked: %1$s.</string>
+    <string name="clear_selection">Clear selection</string>
+</resources>

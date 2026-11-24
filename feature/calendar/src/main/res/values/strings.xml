@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_title">Calendario</string>
+    <string name="calendar_overline">Tu actividad</string>
+    <string name="calendar_today">Hoy</string>
+    <string name="calendar_legend">Leyenda</string>
+    <string name="calendar_no_activity">No hay actividad registrada este día.</string>
+    <string name="calendar_planned_rest">Día de descanso programado.</string>
+    <string name="calendar_missed">Tenías un entrenamiento programado que no se registró.</string>
+    <string name="calendar_session">%1$s · %2$s · series: %3$d</string>
+    <string name="calendar_scheduled">Programado: %1$s</string>
+    <string name="calendar_weekly">Toca: %1$s (según los días de la rutina)</string>
+    <string name="calendar_cancel">Cancelar</string>
+    <string name="calendar_cancel_cd">Cancelar %1$s programado</string>
+    <string name="calendar_schedule">Programar rutina</string>
+    <string name="calendar_schedule_title">Programar para este día</string>
+    <string name="calendar_no_routines">Primero crea una rutina en Entrenamiento.</string>
+    <string name="calendar_mark_rest">Marcar como descanso</string>
+    <string name="calendar_unmark_rest">Quitar descanso</string>
+</resources>

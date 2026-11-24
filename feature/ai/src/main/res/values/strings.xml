@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_title">FITNEX AI</string>
+    <string name="ai_overline">Tu asistente</string>
+    <string name="ai_context_label">Abierto desde: %1$s</string>
+    <string name="ai_ctx_progress">Progreso</string>
+    <string name="ai_ctx_nutrition">Nutrición</string>
+    <string name="ai_ctx_workout">Entrenamiento</string>
+    <string name="ai_ctx_calendar">Calendario</string>
+    <string name="ai_ctx_statistics">Estadísticas</string>
+    <string name="ai_ctx_library">Biblioteca de ejercicios</string>
+    <string name="ai_ctx_exercise">Detalle de ejercicio</string>
+    <string name="ai_ctx_muscle">Detalle muscular</string>
+    <string name="ai_disclaimer">FITNEX AI ofrece orientación general y no sustituye a profesionales de la salud, nutricionistas o entrenadores que puedan evaluarte personalmente.</string>
+
+    <string name="ai_consent_title">Antes de empezar</string>
+    <string name="ai_consent_message">Para responderte, FITNEX AI envía tu mensaje y solo los datos de la pantalla desde la que lo abres (por ejemplo, tus estadísticas del mes o lo que has comido hoy) al servidor seguro de FITNEX, que usa Gemini de Google. No se guarda tu nombre ni tu correo en la consulta. Puedes retirar el permiso en Ajustes.</string>
+    <string name="ai_consent_accept">Acepto</string>
+    <string name="ai_empty">Pregúntame sobre tu entrenamiento, tu progreso o tu alimentación.</string>
+    <string name="ai_input">Escribe tu pregunta</string>
+    <string name="ai_send">Enviar</string>
+    <string name="ai_thinking">FITNEX AI está pensando…</string>
+    <string name="ai_clear">Nueva conversación</string>
+    <string name="ai_you">Tú</string>
+    <string name="ai_suggest_progress">Analizar mi progreso</string>
+    <string name="ai_suggest_progress_prompt">Analiza mi progreso de este mes: qué estoy haciendo bien, qué grupos musculares trabajo poco y qué me recomiendas para la próxima semana.</string>
+    <string name="ai_suggest_nutrition">¿Qué nutrientes me faltan hoy?</string>
+    <string name="ai_suggest_nutrition_prompt">Según lo que he registrado hoy, ¿qué nutrientes o grupos de alimentos me convendría añadir?</string>
+    <string name="ai_suggest_workout">Ideas para mi próxima rutina</string>
+    <string name="ai_suggest_workout_prompt">Dame ideas para mi próxima rutina de entrenamiento según mi nivel.</string>
+    <string name="ai_suggest_technique">¿Cómo mejoro la técnica?</string>
+    <string name="ai_suggest_technique_prompt">Dame los puntos clave de técnica y los errores más comunes de este ejercicio.</string>
+
+    <string name="ai_error_no_connection">No hay conexión a internet. Tu mensaje se guardó; inténtalo de nuevo cuando tengas conexión.</string>
+    <string name="ai_error_rate_limited">Has hecho muchas preguntas seguidas. Espera un minuto e inténtalo de nuevo.</string>
+    <string name="ai_error_not_configured">El servidor de FITNEX AI todavía no está desplegado para esta versión de la app.</string>
+    <string name="ai_error_unavailable">FITNEX AI no ha podido responder ahora. Inténtalo de nuevo en un momento.</string>
+    <string name="ai_error_signed_out">Tu sesión ha caducado. Vuelve a iniciar sesión.</string>
+    <string name="ai_retry">Reintentar</string>
+</resources>

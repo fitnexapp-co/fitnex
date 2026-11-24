@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ai_title">FITNEX AI</string>
+    <string name="ai_overline">Your assistant</string>
+    <string name="ai_context_label">Opened from: %1$s</string>
+    <string name="ai_ctx_progress">Progress</string>
+    <string name="ai_ctx_nutrition">Nutrition</string>
+    <string name="ai_ctx_workout">Workout</string>
+    <string name="ai_ctx_calendar">Calendar</string>
+    <string name="ai_ctx_statistics">Statistics</string>
+    <string name="ai_ctx_library">Exercise library</string>
+    <string name="ai_ctx_exercise">Exercise detail</string>
+    <string name="ai_ctx_muscle">Muscle detail</string>
+    <string name="ai_disclaimer">FITNEX AI offers general guidance and does not replace health professionals, dietitians or coaches who can assess you in person.</string>
+
+    <string name="ai_consent_title">Before you start</string>
+    <string name="ai_consent_message">To answer you, FITNEX AI sends your message and only the data of the screen you open it from (for example, your stats for the month or what you ate today) to FITNEX\'s secure server, which uses Google\'s Gemini. Your name and email are not stored with the request. You can withdraw permission in Settings.</string>
+    <string name="ai_consent_accept">I agree</string>
+    <string name="ai_empty">Ask me about your training, your progress or your nutrition.</string>
+    <string name="ai_input">Type your question</string>
+    <string name="ai_send">Send</string>
+    <string name="ai_thinking">FITNEX AI is thinking…</string>
+    <string name="ai_clear">New conversation</string>
+    <string name="ai_you">You</string>
+    <string name="ai_suggest_progress">Analyze my progress</string>
+    <string name="ai_suggest_progress_prompt">Analyze my progress this month: what I\'m doing well, which muscle groups I\'m training too little and what you recommend for next week.</string>
+    <string name="ai_suggest_nutrition">Which nutrients am I missing today?</string>
+    <string name="ai_suggest_nutrition_prompt">Based on what I logged today, which nutrients or food groups should I add?</string>
+    <string name="ai_suggest_workout">Ideas for my next routine</string>
+    <string name="ai_suggest_workout_prompt">Give me ideas for my next workout routine based on my level.</string>
+    <string name="ai_suggest_technique">How do I improve my technique?</string>
+    <string name="ai_suggest_technique_prompt">Give me the key technique points and the most common mistakes for this exercise.</string>
+
+    <string name="ai_error_no_connection">No internet connection. Your message was saved; try again when you\'re online.</string>
+    <string name="ai_error_rate_limited">You\'ve asked a lot of questions in a row. Wait a minute and try again.</string>
+    <string name="ai_error_not_configured">The FITNEX AI server isn\'t deployed for this version of the app yet.</string>
+    <string name="ai_error_unavailable">FITNEX AI couldn\'t answer right now. Try again in a moment.</string>
+    <string name="ai_error_signed_out">Your session has expired. Please sign in again.</string>
+    <string name="ai_retry">Retry</string>
+</resources>

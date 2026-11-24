@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_overline">Your activity</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_legend">Legend</string>
+    <string name="calendar_no_activity">No activity logged on this day.</string>
+    <string name="calendar_planned_rest">Scheduled rest day.</string>
+    <string name="calendar_missed">You had a workout scheduled that wasn\'t logged.</string>
+    <string name="calendar_session">%1$s · %2$s · sets: %3$d</string>
+    <string name="calendar_scheduled">Scheduled: %1$s</string>
+    <string name="calendar_weekly">Due: %1$s (from the routine\'s days)</string>
+    <string name="calendar_cancel">Cancel</string>
+    <string name="calendar_cancel_cd">Cancel scheduled %1$s</string>
+    <string name="calendar_schedule">Schedule routine</string>
+    <string name="calendar_schedule_title">Schedule for this day</string>
+    <string name="calendar_no_routines">First create a routine in Workout.</string>
+    <string name="calendar_mark_rest">Mark as rest</string>
+    <string name="calendar_unmark_rest">Remove rest</string>
+</resources>

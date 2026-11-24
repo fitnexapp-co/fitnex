@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fitnex_black">#FF050506</color>
+    <color name="fitnex_red">#FFE5243B</color>
+
+    <!-- Window theme behind Compose: deep black so there is no white flash on launch. -->
+    <style name="Theme.Fitnex" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fitnex_black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- AndroidX SplashScreen: FITNEX mark on black (spec §4 Splash Screen). -->
+    <style name="Theme.Fitnex.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/fitnex_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_fitnex_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.Fitnex</item>
+    </style>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Welcome -->
+    <string name="welcome_slogan">BUILD YOUR BEST SELF</string>
+    <string name="welcome_train_title">Train with purpose</string>
+    <string name="welcome_train_body">Routines, set logging and your real progress, session by session.</string>
+    <string name="welcome_eat_title">Eat with balance</string>
+    <string name="welcome_eat_body">Food and hydration diary, without obsessing over calories.</string>
+    <string name="welcome_ai_title">FITNEX AI by your side</string>
+    <string name="welcome_ai_body">An assistant that understands your data. General guidance, not a substitute for professionals.</string>
+    <string name="welcome_create_account">Create account</string>
+    <string name="welcome_have_account">I already have an account</string>
+
+    <!-- Sign up / sign in -->
+    <string name="signup_title">Create account</string>
+    <string name="signup_overline">Start here</string>
+    <string name="signup_birthdate">Date of birth</string>
+    <string name="signup_birthdate_why">We adapt FITNEX to your age. You must be at least %1$d years old.</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+    <string name="field_password_confirm">Repeat password</string>
+    <string name="signup_password_hint">At least 8 characters, with letters and numbers.</string>
+    <string name="signup_submit">Create my account</string>
+    <string name="signup_verification_note">We\'ll send you an email to verify your address.</string>
+    <string name="signup_too_young_title">You can\'t use FITNEX yet</string>
+    <string name="signup_too_young_body">You must be at least %1$d years old to create an account. We haven\'t saved any data.</string>
+    <string name="signin_title">Sign in</string>
+    <string name="signin_overline">Welcome back</string>
+    <string name="signin_submit">Sign in</string>
+    <string name="signin_forgot">Forgot your password?</string>
+    <string name="reset_title">Reset password</string>
+    <string name="reset_overline">No problem</string>
+    <string name="reset_body">Enter your email and we\'ll send you a link to create a new password.</string>
+    <string name="reset_submit">Send link</string>
+    <string name="reset_sent">If an account exists for %1$s, you\'ll get an email in a few minutes. Check your spam folder too.</string>
+    <string name="reset_back_to_signin">Back to sign in</string>
+
+    <!-- Errors -->
+    <string name="err_required">This field is required.</string>
+    <string name="err_invalid_email">Check the email format.</string>
+    <string name="err_password_short">The password must be at least 8 characters long.</string>
+    <string name="err_password_mix">Use at least one letter and one number.</string>
+    <string name="err_passwords_differ">The passwords don\'t match.</string>
+    <string name="err_invalid_date">Invalid date. Use the DD/MM/YYYY format.</string>
+    <string name="err_future_date">The date can\'t be in the future.</string>
+    <string name="err_too_young">You must be at least 14 years old.</string>
+    <string name="err_implausible_date">Check the year of birth.</string>
+    <string name="err_name_long">Use a shorter name (40 characters max).</string>
+    <string name="err_out_of_range">Check the value you entered.</string>
+    <string name="auth_err_email_in_use">An account with this email already exists. Try signing in.</string>
+    <string name="auth_err_invalid_credentials">Wrong email or password.</string>
+    <string name="auth_err_disabled">This account is disabled.</string>
+    <string name="auth_err_too_many">Too many attempts. Wait a few minutes and try again.</string>
+    <string name="auth_err_network">No connection. Signing in needs the internet.</string>
+    <string name="auth_err_recent_login">For security, enter your password again.</string>
+    <string name="auth_err_not_signed_in">You\'re not signed in.</string>
+    <string name="auth_err_unknown">Something went wrong. Please try again.</string>
+
+    <!-- Onboarding -->
+    <string name="onb_step">Step %1$d of %2$d</string>
+    <string name="onb_next">Next</string>
+    <string name="onb_back">Back</string>
+    <string name="onb_skip">Skip</string>
+    <string name="onb_finish">Get started</string>
+    <string name="onb_save">Save changes</string>
+    <string name="onb_edit_title">Edit profile</string>
+    <string name="onb_optional">Optional</string>
+
+    <string name="onb_about_title">About you</string>
+    <string name="onb_about_body">The basics to personalize your experience.</string>
+    <string name="onb_name">Name</string>
+    <string name="onb_name_why">So we can address you. It isn\'t shown to anyone.</string>
+    <string name="onb_birthdate_why">We adapt recommendations and safe limits to your age.</string>
+    <string name="onb_height">Height</string>
+    <string name="onb_height_why">Optional. Helps put your stats in context.</string>
+    <string name="onb_weight">Weight</string>
+    <string name="onb_weight_why">Optional. We only use it to calculate relative loads; we\'ll never ask you to weigh yourself.</string>
+    <string name="onb_minor_note">Because you\'re under 18, FITNEX will focus on your growth, a varied diet and safe physical activity. You won\'t see weight-loss or calorie-deficit goals.</string>
+
+    <string name="onb_training_title">Your training</string>
+    <string name="onb_training_body">So we can suggest realistic routines.</string>
+    <string name="onb_experience">Training experience</string>
+    <string name="onb_exp_beginner">Beginner</string>
+    <string name="onb_exp_intermediate">Intermediate</string>
+    <string name="onb_exp_advanced">Advanced</string>
+    <string name="onb_activity">Usual daily activity</string>
+    <string name="onb_act_sedentary">Sedentary</string>
+    <string name="onb_act_light">Light</string>
+    <string name="onb_act_moderate">Moderate</string>
+    <string name="onb_act_active">Active</string>
+    <string name="onb_act_very_active">Very active</string>
+    <string name="onb_days">Days available to train</string>
+    <string name="onb_session_minutes">Session length</string>
+    <string name="onb_minutes">%1$d min</string>
+
+    <string name="onb_equipment_title">Equipment</string>
+    <string name="onb_equipment_body">Choose what you have access to. We\'ll only recommend exercises you can do.</string>
+    <string name="eq_bodyweight">Bodyweight</string>
+    <string name="eq_dumbbell">Dumbbells</string>
+    <string name="eq_barbell">Barbell</string>
+    <string name="eq_kettlebell">Kettlebell</string>
+    <string name="eq_machine">Machine</string>
+    <string name="eq_cable">Cable</string>
+    <string name="eq_band">Resistance band</string>
+    <string name="eq_bench">Bench</string>
+    <string name="eq_pullup_bar">Pull-up bar</string>
+    <string name="eq_other">Other</string>
+    <string name="eq_ez_bar">EZ bar</string>
+    <string name="eq_dip_bars">Dip bars</string>
+    <string name="eq_rack">Rack</string>
+    <string name="eq_medicine_ball">Medicine ball</string>
+    <string name="eq_rope">Rope</string>
+    <string name="eq_sled">Sled</string>
+    <string name="eq_sandbag">Sandbag</string>
+    <string name="eq_cardio_machine">Cardio machine</string>
+
+    <string name="onb_food_title">Nutrition</string>
+    <string name="onb_food_body">So suggestions respect your preferences and, above all, your allergies.</string>
+    <string name="onb_diet">Preferences</string>
+    <string name="onb_allergies">Allergies and intolerances</string>
+    <string name="onb_allergy_other">Other allergy</string>
+    <string name="onb_allergy_add">Add</string>
+
+    <string name="onb_privacy_title">Privacy and FITNEX AI</string>
+    <string name="onb_privacy_body">You decide what artificial intelligence does with your data.</string>
+    <string name="onb_ai_consent">Allow FITNEX AI to use my data</string>
+    <string name="onb_ai_consent_desc">When you talk to FITNEX AI or analyze a meal, the information needed (workouts, meals, profile) is sent to FITNEX\'s secure server and to Google Gemini to generate the answer. Nothing is sent unless you ask. You can change this in Settings.</string>
+    <string name="onb_ai_off_note">Without this permission, FITNEX works the same except for the assistant and photo analysis.</string>
+    <string name="onb_disclaimer">FITNEX offers general guidance on training and nutrition. It does not replace health professionals, dietitians or coaches who can assess you in person.</string>
+    <string name="diet_omnivore">Omnivore</string>
+    <string name="diet_vegetarian">Vegetarian</string>
+    <string name="diet_vegan">Vegan</string>
+    <string name="diet_pescatarian">Pescatarian</string>
+    <string name="diet_gluten_free">Gluten-free</string>
+    <string name="diet_lactose_free">Lactose-free</string>
+    <string name="diet_halal">Halal</string>
+    <string name="diet_kosher">Kosher</string>
+    <string name="allergy_nuts">Tree nuts</string>
+    <string name="allergy_peanut">Peanut</string>
+    <string name="allergy_milk">Milk</string>
+    <string name="allergy_egg">Egg</string>
+    <string name="allergy_gluten">Gluten</string>
+    <string name="allergy_soy">Soy</string>
+    <string name="allergy_fish">Fish</string>
+    <string name="allergy_shellfish">Shellfish</string>
+    <string name="allergy_sesame">Sesame</string>
+    <string name="onb_blocked_title">We can\'t continue</string>
+    <string name="onb_blocked_body">FITNEX requires you to be at least %1$d years old.</string>
+    <string name="onb_sign_out">Sign out</string>
+</resources>

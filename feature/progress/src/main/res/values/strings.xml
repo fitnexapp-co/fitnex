@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="progress_title">Progreso</string>
+    <string name="progress_overline">Tu evolución</string>
+    <string name="progress_empty_title">Tu progreso empieza hoy</string>
+    <string name="progress_empty_message">Haz tu primer entrenamiento y aquí verás tus estadísticas.</string>
+    <string name="muscles_empty">Sin series registradas en este periodo.</string>
+    <string name="exercises_empty">Aquí aparecerán los ejercicios que completes.</string>
+    <string name="history_empty">Aquí aparecerán tus sesiones terminadas.</string>
+    <string name="progress_go_train">Comenzar</string>
+    <string name="analyze_progress">Analizar mi progreso</string>
+
+    <string name="period_week">Semana</string>
+    <string name="period_month">Mes</string>
+    <string name="period_3m">3 meses</string>
+    <string name="period_year">Año</string>
+    <string name="period_all">Todo</string>
+
+    <string name="tile_workouts">Entrenamientos</string>
+    <string name="tile_sets">Series</string>
+    <string name="tile_reps">Repeticiones</string>
+    <string name="tile_time">Tiempo</string>
+    <string name="tile_volume">Volumen</string>
+    <string name="tile_active_days">Días activos</string>
+    <string name="tile_active_days_caption">de %1$d en el periodo</string>
+    <string name="progress_no_sessions_period">No hay entrenamientos en este periodo. Prueba con un periodo más largo.</string>
+
+    <string name="section_frequency">Frecuencia</string>
+    <string name="frequency_a11y">Entrenamientos por %1$s: %2$s</string>
+    <string name="unit_day">día</string>
+    <string name="unit_week">semana</string>
+    <string name="unit_month">mes</string>
+    <string name="section_muscles">Grupos musculares</string>
+    <string name="muscles_note">Series ponderadas: músculo principal = 1, secundario = 0,5, estabilizador = 0,25.</string>
+    <string name="muscles_a11y">Series ponderadas por grupo: %1$s</string>
+    <string name="section_exercises">Ejercicios</string>
+    <string name="exercise_row">Sesiones: %1$d · última %2$s</string>
+    <string name="exercise_best_weight">Mejor: %1$s kg</string>
+    <string name="exercise_best_reps">Mejor: %1$d reps</string>
+    <string name="section_history">Historial</string>
+    <string name="history_row">%1$s · series: %2$d · ejercicios: %3$d</string>
+
+    <string name="region_chest">Pecho</string>
+    <string name="region_back">Espalda</string>
+    <string name="region_shoulders">Hombros</string>
+    <string name="region_arms">Brazos</string>
+    <string name="region_core">Abdomen</string>
+    <string name="region_legs">Piernas</string>
+    <string name="region_glutes">Glúteos</string>
+    <string name="region_neck">Cuello</string>
+
+    <!-- Muscle map + muscle page -->
+    <string name="map_muscle_info">%1$s series ponderadas · %2$s en el periodo</string>
+    <plurals name="sessions_count">
+        <item quantity="one">%d sesión</item>
+        <item quantity="other">%d sesiones</item>
+    </plurals>
+    <plurals name="sets_count">
+        <item quantity="one">%d serie</item>
+        <item quantity="other">%d series</item>
+    </plurals>
+    <string name="map_muscle_not_worked">Sin trabajar en este periodo.</string>
+    <string name="muscle_function">Función</string>
+    <string name="muscle_sessions">Sesiones</string>
+    <string name="muscle_weighted_sets">Series ponderadas</string>
+    <string name="muscle_last">Última vez</string>
+    <string name="muscle_never">—</string>
+    <string name="muscle_frequency">Frecuencia</string>
+    <string name="muscle_frequency_value">%1$s/sem</string>
+    <string name="muscle_frequency_caption">sesiones · últimas 4 semanas</string>
+    <string name="muscle_evolution">Evolución · últimas 12 semanas</string>
+    <string name="muscle_metric_sets">Series</string>
+    <string name="muscle_metric_volume">Volumen</string>
+    <string name="muscle_evolution_a11y">%1$s por semana: %2$s</string>
+    <string name="muscle_evolution_empty">Aún no hay series de este músculo en las últimas 12 semanas.</string>
+    <string name="muscle_volume_note">Volumen ponderado: repeticiones × kg × participación del músculo (principal 1, secundario 0,5, estabilizador 0,25).</string>
+    <string name="muscle_primary_exercises">Ejercicios principales</string>
+    <string name="muscle_secondary_exercises">También lo trabajan</string>
+    <string name="muscle_no_exercises">Ningún ejercicio del catálogo lo trabaja en este papel.</string>
+    <string name="muscle_history">Historial</string>
+    <string name="muscle_history_empty">Todavía no has entrenado este músculo. Aparecerá aquí al terminar un entrenamiento que lo trabaje.</string>
+    <string name="muscle_history_row">%1$s · %2$s</string>
+    <string name="muscle_same_region">Otros músculos de %1$s</string>
+    <string name="muscle_map_a11y">Situación de %1$s en el cuerpo</string>
+    <string name="muscle_not_found">Este músculo no existe en el catálogo.</string>
+
+    <!-- Exercise stats -->
+    <string name="exstats_overline">Estadísticas</string>
+    <string name="exstats_sessions">Sesiones</string>
+    <string name="exstats_best_weight">Mejor peso</string>
+    <string name="exstats_best_reps">Mejor serie</string>
+    <string name="exstats_best_1rm">1RM estimado</string>
+    <string name="metric_weight">Peso máx.</string>
+    <string name="metric_1rm">1RM est.</string>
+    <string name="metric_volume">Volumen</string>
+    <string name="metric_reps">Reps</string>
+    <string name="exstats_chart_a11y">%1$s por sesión, de %2$s a %3$s</string>
+    <string name="exstats_1rm_note">El 1RM estimado se calcula con la fórmula de Epley a partir de tus series de 1 a 12 repeticiones. Es una estimación, no una medición.</string>
+    <string name="exstats_one_point">Con una sola sesión aún no hay evolución que mostrar. Vuelve después de tu próximo entrenamiento.</string>
+    <string name="exstats_empty">Todavía no has registrado este ejercicio.</string>
+    <string name="exstats_history">Historial de series</string>
+    <string name="goal_title">Objetivo semanal</string>
+    <string name="goal_a11y">%1$d de %2$d entrenamientos esta semana</string>
+    <string name="goal_done">¡Objetivo de la semana cumplido!</string>
+    <plurals name="goal_left">
+        <item quantity="one">Te falta %d entrenamiento esta semana</item>
+        <item quantity="other">Te faltan %d entrenamientos esta semana</item>
+    </plurals>
+    <plurals name="goal_streak">
+        <item quantity="one">Racha: %d semana</item>
+        <item quantity="other">Racha: %d semanas</item>
+    </plurals>
+    <string name="goal_no_streak">Cumple el objetivo para empezar una racha</string>
+    <string name="goal_change">Cambiar</string>
+    <string name="goal_sheet_title">Entrenamientos por semana</string>
+    <string name="goal_sheet_body">¿Cuántos días quieres entrenar cada semana?</string>
+    <string name="badges_title">Logros %1$d/%2$d</string>
+    <string name="achievements_title">Tus logros</string>
+    <string name="achievements_all">Ver todos</string>
+    <string name="goal_day_done">%1$s: entrenado</string>
+    <string name="goal_day_pending">%1$s: sin entrenar</string>
+    <string name="badge_locked_a11y">%1$s, bloqueado: %2$d de %3$d</string>
+    <string name="badge_first">Primer entreno</string>
+    <string name="badge_10">10 entrenos</string>
+    <string name="badge_50">50 entrenos</string>
+    <string name="badge_100">100 entrenos</string>
+    <string name="badge_streak4">Racha de 4 semanas</string>
+    <string name="badge_streak12">Racha de 12 semanas</string>
+    <string name="badge_sets">500 series</string>
+    <string name="badge_hours">10 horas</string>
+    <string name="badge_variety">15 ejercicios</string>
+<!-- Tarjetas "Tu experiencia" -->
+    <string name="exp_label">Tu experiencia FITNEX</string>
+    <string name="exp_minutes">Minutos entrenados</string>
+    <plurals name="exp_workouts_year">
+        <item quantity="one">%1$d entrenamiento · %2$d</item>
+        <item quantity="many">%1$d entrenamientos · %2$d</item>
+        <item quantity="other">%1$d entrenamientos · %2$d</item>
+    </plurals>
+    <string name="exp_member">Miembro desde</string>
+    <string name="exp_streak_label">Tu constancia</string>
+    <string name="exp_streak">Semanas seguidas</string>
+    <string name="exp_sets_total">Series en total: %1$d</string>
+    <string name="exp_last">Último</string>
+    <string name="exp_week_label">Esta semana</string>
+    <string name="exp_week">Entrenamientos</string>
+<!-- Panel: frecuencia, ritmo y grupos -->
+    <string name="freq_days">Días</string>
+    <string name="freq_weeks">Semanas</string>
+    <string name="freq_months">Meses</string>
+    <string name="rhythm_title">Tu ritmo</string>
+    <string name="ring_week">Objetivo semanal</string>
+    <string name="ring_active">Días activos</string>
+    <string name="ring_sets">Series vs. periodo anterior</string>
+    <string name="ring_of">%1$d de %2$d</string>
+    <string name="groups_title">Grupos musculares</string>
+    <string name="groups_main">Principal grupo trabajado</string>
+    <string name="groups_center">series</string>
+    <string name="groups_other">Otros</string>
+    <string name="sets_per_session">Series por entrenamiento</string>
+    <string name="sets_per_session_a11y">Series en tus últimos entrenamientos: %1$s</string>
+    <!-- Progreso, simplified (v1.6.0) -->
+    <string name="progress_subtitle">Tu evolución real, con tus entrenamientos registrados.</string>
+    <plurals name="tile_active_days_short">
+        <item quantity="one">%1$d día activo</item>
+        <item quantity="many">%1$d días activos</item>
+        <item quantity="other">%1$d días activos</item>
+    </plurals>
+    <plurals name="tile_reps_caption">
+        <item quantity="one">%d repetición</item>
+        <item quantity="other">%d repeticiones</item>
+    </plurals>
+    <string name="tile_timed">Cardio y tiempo</string>
+    <string name="tile_timed_caption">Cardio, planchas y estiramientos</string>
+    <string name="tile_distance">Distancia</string>
+    <!-- Body measurements (adults, v1.6.0) -->
+    <string name="body_title">Medidas corporales</string>
+    <string name="body_empty">Opcional: apunta alguna medida (cintura, brazo…) si quieres ver cómo cambia con el entrenamiento. No pedimos tu peso.</string>
+    <string name="body_waist">Cintura</string>
+    <string name="body_chest">Pecho</string>
+    <string name="body_hips">Cadera</string>
+    <string name="body_arm">Brazo</string>
+    <string name="body_thigh">Muslo</string>
+    <string name="body_since">Cambio desde tu primer registro (%1$s)</string>
+    <string name="body_first_only">Primer registro: %1$s. Con la próxima medida verás el cambio.</string>
+    <string name="body_add">Añadir medidas</string>
+    <string name="body_save">Guardar</string>
+    <string name="body_sheet_hint">Rellena solo las que quieras. Mide siempre en el mismo sitio y a la misma hora para comparar mejor.</string>
+    <string name="body_invalid">Revisa los valores: entre 15 y 250 cm.</string>
+    <string name="body_delete_cd">Borrar las medidas del %1$s</string>
+    <string name="body_delete_title">¿Borrar estas medidas?</string>
+    <string name="body_delete_body">Se borran de este dispositivo y de la nube.</string>
+    <string name="body_delete_confirm">Borrar</string>
+    <string name="body_delete_cancel">Cancelar</string>
+</resources>

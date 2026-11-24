@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map_title">Mapa muscular</string>
+    <string name="map_2d">2D</string>
+    <string name="map_3d">3D</string>
+    <string name="view_front">Frente</string>
+    <string name="view_back">Espalda</string>
+    <string name="legend_idle">Sin trabajar</string>
+    <string name="legend_active">Trabajado</string>
+    <string name="hint_tap">Toca un músculo para ver su información.</string>
+    <string name="hint_3d">Desliza de lado para girar · pellizca para acercar · dos dedos para mover</string>
+    <string name="recenter">Centrar</string>
+    <string name="open_detail">Ver detalle</string>
+    <string name="fallback_2d">Este dispositivo muestra el mapa en 2D para mantener la app fluida.</string>
+    <string name="map_a11y">Mapa muscular, vista %1$s. Músculos trabajados: %2$s.</string>
+    <string name="map_a11y_none">ninguno</string>
+    <string name="map3d_a11y">Modelo 3D del cuerpo. Músculos trabajados: %1$s.</string>
+    <string name="clear_selection">Quitar selección</string>
+</resources>

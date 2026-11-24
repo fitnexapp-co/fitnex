@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FITNEX mark: geometric white "F" followed by a small violet dumbbell, tilted like the old
+     accent slash. 108dp adaptive canvas, artwork inside the 66dp safe zone so launchers and the
+     splash never crop it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- F stem + top arm (slanted for motion) -->
+    <path
+        android:fillColor="#FFF7F7F8"
+        android:pathData="M40,33 L72,33 L69.5,42 L49,42 L47.5,49 L63,49 L60.6,58 L45.2,58 L41.8,75 L32,75 Z" />
+    <!-- Violet dumbbell in place of the slash: bar, inner plates, outer plates. Drawn horizontal
+         around (69,66.5) and rotated to the slash's angle. -->
+    <group
+        android:pivotX="69"
+        android:pivotY="66.5"
+        android:rotation="-74"
+        android:scaleX="0.78"
+        android:scaleY="0.78">
+        <path
+            android:fillColor="#FF8B5CF6"
+            android:pathData="M62.5,65.3 L75.5,65.3 L75.5,67.7 L62.5,67.7 Z" />
+        <path
+            android:fillColor="#FF8B5CF6"
+            android:pathData="M61,60.4 L64.2,60.4 Q64.8,60.4 64.8,61 L64.8,72 Q64.8,72.6 64.2,72.6 L61,72.6 Q60.4,72.6 60.4,72 L60.4,61 Q60.4,60.4 61,60.4 Z" />
+        <path
+            android:fillColor="#FF8B5CF6"
+            android:pathData="M73.8,60.4 L77,60.4 Q77.6,60.4 77.6,61 L77.6,72 Q77.6,72.6 77,72.6 L73.8,72.6 Q73.2,72.6 73.2,72 L73.2,61 Q73.2,60.4 73.8,60.4 Z" />
+        <path
+            android:fillColor="#FFA78BFA"
+            android:pathData="M57.6,62.4 L59.6,62.4 Q60,62.4 60,62.8 L60,70.2 Q60,70.6 59.6,70.6 L57.6,70.6 Q57.2,70.6 57.2,70.2 L57.2,62.8 Q57.2,62.4 57.6,62.4 Z" />
+        <path
+            android:fillColor="#FFA78BFA"
+            android:pathData="M78.4,62.4 L80.4,62.4 Q80.8,62.4 80.8,62.8 L80.8,70.2 Q80.8,70.6 80.4,70.6 L78.4,70.6 Q78,70.6 78,70.2 L78,62.8 Q78,62.4 78.4,62.4 Z" />
+    </group>
+</vector>

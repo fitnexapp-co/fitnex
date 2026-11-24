@@ -1,0 +1,12 @@
+# Text files are stored with LF in the repository (Windows checkouts may still use CRLF).
+* text=auto
+# The Unix launcher must keep LF to run on Linux/macOS; the Windows one keeps CRLF.
+gradlew text eol=lf
+*.bat text eol=crlf
+# Binary assets: never touch them.
+*.png binary
+*.jpg binary
+*.webp binary
+*.ttf binary
+*.glb binary
+*.jar binary

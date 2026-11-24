@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FITNEX</string>
+    <string name="app_slogan">BUILD YOUR BEST SELF</string>
+    <string name="tab_progress">Progress</string>
+    <string name="tab_nutrition">Nutrition</string>
+    <string name="tab_workout">Workout</string>
+    <string name="open_fitnex_ai">Open FITNEX AI</string>
+    <string name="restoring_data">Restoring your data from the cloud…</string>
+    <string name="reminder_channel">Workout reminders</string>
+    <string name="reminder_title">Time to train today</string>
+    <string name="reminder_body">%1$s · Tap to start</string>
+    <string name="widget_name">FITNEX</string>
+    <string name="widget_description">Your weekly goal, your streak and today\'s workout.</string>
+    <string name="widget_week">this week</string>
+    <plurals name="widget_streak">
+        <item quantity="one">Streak: %d week</item>
+        <item quantity="other">Streak: %d weeks</item>
+    </plurals>
+    <string name="widget_today">Today: %1$s</string>
+    <string name="widget_next">Next: %1$s · %2$s</string>
+    <string name="widget_done_today">You already trained today. Well done!</string>
+    <string name="widget_rest">Today is a rest day.</string>
+    <string name="widget_no_plan">Assign days to your routines to see your next workout here.</string>
+    <string name="widget_signed_out">Sign in to FITNEX.</string>
+    <string name="widget_streak_name">FITNEX · Streak</string>
+    <string name="widget_streak_description">Your daily streak with the flame and this week\'s trained days.</string>
+    <string name="widget_stats_name">FITNEX · Streak and stats</string>
+    <string name="widget_stats_description">Your daily streak plus this week\'s workouts, minutes and sets.</string>
+    <plurals name="widget_streak_days">
+        <item quantity="one">day streak</item>
+        <item quantity="other">day streak</item>
+    </plurals>
+    <string name="widget_streak_fed">You already counted today. Keep it up!</string>
+    <string name="widget_streak_grow">Train today to make it grow.</string>
+    <string name="widget_streak_last">Last day to keep it alive!</string>
+    <string name="widget_streak_none">Train today to light your streak.</string>
+    <string name="widget_streak_best">Best: %d</string>
+    <string name="widget_stat_workouts">workouts</string>
+    <string name="widget_stat_minutes">minutes</string>
+    <string name="widget_stat_sets">sets</string>
+    <string name="mini_workout_running">Training · %1$s · sets: %2$d</string>
+    <string name="mini_workout_paused">Paused · %1$s · sets: %2$d</string>
+    <string name="mini_workout_open">Back to the workout</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BCP-47 tag of the language these strings are written in; drives date formatting. -->
+    <string name="ds_locale_tag">es-ES</string>
+    <string name="ds_back">Volver</string>
+    <string name="ds_picker_done">Listo</string>
+    <string name="ds_picker_clear">Quitar</string>
+    <string name="ds_password_show">MOSTRAR</string>
+    <string name="ds_password_hide">OCULTAR</string>
+    <string name="ds_open_calendar">Abrir calendario</string>
+    <string name="ds_open_profile">Perfil y ajustes</string>
+    <string name="ds_previous_month">Mes anterior</string>
+    <string name="ds_next_month">Mes siguiente</string>
+    <string name="ds_marker_completed">Entrenamiento completado</string>
+    <string name="ds_marker_scheduled">Sesión programada</string>
+    <string name="ds_marker_rest">Descanso programado</string>
+    <string name="ds_marker_missed">Sesión no realizada</string>
+    <string name="ds_marker_none_hint">Un día sin marca significa que no hay actividad registrada, no que fuera descanso.</string>
+    <string name="ds_logo">FITNEX</string>
+    <!-- Streak (daily, one rest day allowed) -->
+    <string name="ds_streak_title">Racha de entrenamiento</string>
+    <string name="ds_streak_open">Ver tu racha</string>
+    <plurals name="ds_streak_days">
+        <item quantity="one">día de racha</item>
+        <item quantity="other">días de racha</item>
+    </plurals>
+    <plurals name="ds_streak_cd">
+        <item quantity="one">Racha de %d día</item>
+        <item quantity="other">Racha de %d días</item>
+    </plurals>
+    <plurals name="ds_streak_best">
+        <item quantity="one">Tu mejor racha: %d día</item>
+        <item quantity="other">Tu mejor racha: %d días</item>
+    </plurals>
+    <string name="ds_streak_fed">¡Racha alimentada hoy!\nMañana puedes entrenar o descansar.</string>
+    <string name="ds_streak_can_grow">Esta racha quiere crecer.\nAliméntala hoy o tómate el día de descanso.</string>
+    <string name="ds_streak_last_day">Ayer descansaste.\nEntrena hoy para no perder la racha.</string>
+    <string name="ds_streak_none">Empieza una racha con tu próximo entrenamiento.</string>
+    <string name="ds_streak_how">¿Cómo funciona la racha?</string>
+    <string name="ds_streak_how_body">Cada día que terminas un entrenamiento suma un día a la racha. Descansar forma parte del entrenamiento: un día de descanso entre entrenos no la rompe. Si pasan dos días seguidos sin entrenar, la racha vuelve a empezar.</string>
+    <string name="ds_streak_continue">Continuar</string>
+</resources>
