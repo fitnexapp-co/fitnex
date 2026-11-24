@@ -13,8 +13,8 @@ android {
 
     defaultConfig {
         applicationId = "com.fitnex.app"
-        versionCode = 22
-        versionName = "1.7.0"
+        versionCode = 23
+        versionName = "1.7.1"
         // -Pfitnex.abi=arm64-v8a builds a phone-only APK for sideloading (~30 MB instead of ~84 MB:
         // ML Kit's pose engine ships one 15–20 MB native library per CPU type). Google Play uses the
         // AAB and delivers only the device's own ABI automatically.

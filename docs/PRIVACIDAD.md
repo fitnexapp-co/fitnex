@@ -37,6 +37,12 @@
 - Sirve para recuperar tus datos al cambiar de móvil.
 - Al eliminar la cuenta se borra primero la copia en la nube y después los datos del móvil.
 
+## Avisos de nuevas versiones
+- Si instalaste FITNEX desde un APK (no desde Google Play), al abrirse consulta la lista pública de
+  versiones del proyecto en GitHub para avisarte cuando haya una nueva.
+- No se envía ningún dato tuyo: es la misma página pública que cualquiera puede abrir. GitHub ve la
+  dirección IP de la conexión, como en cualquier web.
+
 ## Menores
 - La edad mínima es de 14 años.
 - Entre los 14 y los 17 años, y si la edad no consta, la app no muestra calorías ni objetivos de peso,

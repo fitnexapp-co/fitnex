@@ -1,6 +1,7 @@
 # Créditos y licencias de terceros
 
-El código de FITNEX es GNU GPL v3.0. Estos recursos son de terceros y conservan su licencia:
+El código de FITNEX es propiedad de sus autores, con todos los derechos reservados (ver [LICENSE](LICENSE)).
+Estos recursos son de terceros y conservan su licencia:
 
 | Recurso | Dónde está | Autor / origen | Licencia |
 |---|---|---|---|
@@ -13,4 +14,4 @@ El código de FITNEX es GNU GPL v3.0. Estos recursos son de terceros y conservan
 Las bibliotecas de software (AndroidX, Jetpack Compose, Hilt, Room, Retrofit, OkHttp, ML Kit, CameraX, Firebase…)
 se usan bajo sus propias licencias, en su mayoría Apache 2.0.
 
-El nombre «FITNEX» y su logo identifican este proyecto y no forman parte de la licencia del código.
+El nombre «FITNEX» y su logo pertenecen al proyecto y no pueden usarse sin permiso.

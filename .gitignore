@@ -15,7 +15,7 @@ captures/
 *.idsig
 
 # --- Secrets: never commit them
-# Firebase config is per project: each copy uses its own (see docs/CONFIGURAR.md).
+# Firebase config (project keys and ids): kept out of the repository.
 app/google-services.json
 *.keystore
 *.jks

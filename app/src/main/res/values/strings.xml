@@ -7,6 +7,10 @@
     <string name="tab_workout">Entrenamiento</string>
     <string name="open_fitnex_ai">Abrir FITNEX AI</string>
     <string name="restoring_data">Recuperando tus datos de la nube…</string>
+    <string name="update_title">Nueva versión de FITNEX</string>
+    <string name="update_message">Ya está disponible la versión %1$s. Se instala encima de la que tienes y no pierdes tus datos.</string>
+    <string name="update_download">Descargar</string>
+    <string name="update_later">Ahora no</string>
     <string name="reminder_channel">Recordatorios de entrenamiento</string>
     <string name="reminder_title">Hoy toca entrenar</string>
     <string name="reminder_body">%1$s · Toca para empezar</string>

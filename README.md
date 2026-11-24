@@ -4,7 +4,7 @@
 
 <h1 align="center">FITNEX</h1>
 <p align="center"><b>Entrenamiento, nutrición y progreso en una sola app, con IA.</b><br>
-Código abierto · Android · Hecha en español</p>
+Android · Hecha en español</p>
 
 <p align="center">
   <img src="docs/play-store/screenshots/es-ES/01-progreso.png" width="200" alt="Progreso">
@@ -13,7 +13,7 @@ Código abierto · Android · Hecha en español</p>
   <img src="docs/play-store/screenshots/es-ES/06-fitnex-ai.png" width="200" alt="FITNEX AI">
 </p>
 
-> **Estado:** versión de prueba (1.7.0). Todavía no está en Google Play: la publicación está prevista para
+> **Estado:** versión de prueba. Todavía no está en Google Play: la publicación está prevista para
 > **enero de 2027**. Mientras tanto puedes instalar el APK de la sección **Releases** y contarnos qué te parece.
 
 ## Qué hace
@@ -36,25 +36,12 @@ Código abierto · Android · Hecha en español</p>
 
 ## Instalar la versión de prueba
 
-1. Descarga el APK más reciente desde **Releases**.
+1. Descarga el APK más reciente desde **[Releases](https://github.com/fitnexapp-co/fitnex/releases/latest)**.
 2. En el móvil, permite instalar apps de origen desconocido para tu navegador o gestor de archivos.
 3. Ábrelo e instálalo. Necesitas Android 8.0 o superior y un móvil de 64 bits.
 
-Los APK de prueba están firmados con una clave de desarrollo: cuando la app llegue a Google Play tendrás que
-desinstalar la versión de prueba e instalar la de la tienda.
-
-## Compilar desde el código
-
-Necesitas Android Studio (con su JDK incluido, 17 o superior) y la plataforma Android 37 del SDK.
-
-```powershell
-git clone https://github.com/<tu-usuario>/fitnex.git
-cd fitnex
-.\gradlew.bat assembleDebug testDebugUnitTest
-```
-
-Para iniciar sesión, sincronizar y usar FITNEX AI necesitas **tu propio** proyecto de Firebase y, si quieres la IA,
-tu propio servidor. Paso a paso en [docs/CONFIGURAR.md](docs/CONFIGURAR.md).
+Cuando salga una versión nueva, la propia app te avisará para descargarla: se instala encima y no pierdes tus
+datos.
 
 ## Cómo está hecho
 
@@ -71,18 +58,16 @@ fase por fase, está en [docs/HISTORIAL.md](docs/HISTORIAL.md).
 
 ## Ayúdanos
 
-FITNEX se está construyendo con la comunidad. Puedes:
+FITNEX se está construyendo escuchando a quienes la usan. Puedes:
 
 - **Probarla y opinar:** abre un *issue* con lo que te gusta, lo que no o lo que le falta.
-- **Proponer funciones** o **votar** las que ya están propuestas.
-- **Contribuir con código, traducciones o ejercicios:** lee [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Proponer funciones** o **votar** las que ya están propuestas. Más detalles en [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licencia
 
-El código de FITNEX es software libre bajo la licencia **GNU GPL v3.0** ([LICENSE](LICENSE)): puedes usarlo,
-estudiarlo, modificarlo y compartirlo, siempre que las versiones modificadas que distribuyas también sean
-libres y con su código disponible.
+© 2026 FITNEX. **Todos los derechos reservados.** El código es visible para que puedas ver cómo está hecha la app,
+pero no está permitido copiarlo, modificarlo, reutilizarlo ni redistribuirlo sin permiso. Puedes instalar los APK
+de **Releases** para uso personal. Condiciones completas en [LICENSE](LICENSE).
 
-El nombre y el logo de FITNEX identifican este proyecto; si publicas una versión modificada, usa otro nombre y
-otro logo. Los recursos de terceros (fotos, alimentos, modelo 3D, tipografía) tienen sus propias licencias:
-ver [CREDITOS.md](CREDITOS.md).
+Los recursos de terceros (fotos, alimentos, modelo 3D, tipografía) tienen sus propias licencias: ver
+[CREDITOS.md](CREDITOS.md).

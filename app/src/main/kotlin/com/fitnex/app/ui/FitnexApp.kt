@@ -111,6 +111,8 @@ fun FitnexRoot(
                     else -> MainNavigation()
                 }
             }
+            // "Hay una nueva versión" (APK installs only; Google Play will update by itself).
+            com.fitnex.app.update.UpdatePrompt()
         }
         }
     }
